@@ -1,19 +1,19 @@
 import React from 'react';
-import styled from 'styled-components';
-
-import Header from '../components/layout/Header';
+import Head from 'next/head';
+import Header from '../components/Organisms/Header';
+import HeaderMovie from '../components/Molecules/HeaderMovie';
 
 const Home = () => (
-  <SC>
+  <>
+    <Head>
+      <title>Next App</title>
+    </Head>
     <Header />
-  </SC>
+
+    <main>
+      <HeaderMovie />
+    </main>
+  </>
 );
-
-const SC = styled.div`
-  margin: auto;
-
-  @media(min-width: 768px) {
-  }
-`;
 
 export default Home;

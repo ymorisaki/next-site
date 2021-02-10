@@ -1,5 +1,6 @@
 /* eslint-disable */
 import '../public/styles/globals.css';
+import '../public/styles/utils.css';
 import 'ress';
 
 function MyApp({ Component, pageProps }) {
