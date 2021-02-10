@@ -5,7 +5,7 @@ import HeaderMovieModal from './HeaderMovieModal';
 const HeaderMovie = () => {
   const pEl = useRef(null);
 
-  const loadedAnimation = (target: HTMLElement | null) => {
+  const titleAnimation = (target: HTMLElement | null) => {
     if (!target) {
       throw new Error('対象の要素が存在しない');
     }
@@ -38,7 +38,7 @@ const HeaderMovie = () => {
   };
 
   useEffect(() => {
-    loadedAnimation(pEl.current);
+    titleAnimation(pEl.current);
   }, []);
 
   return (
