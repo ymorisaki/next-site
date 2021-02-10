@@ -20,6 +20,13 @@
   color: #fff;
   text-shadow: 2px 5px 10px #000;
   font-size: 60px;
+  overflow: hidden;
+
+  > span {
+    display: inline-block;
+    transform: translateY(100%);
+    transition: 1s;
+  }
 }
 
 .movie__subLede {
@@ -50,7 +57,9 @@
     transition: .5s;
   }
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     &::before {
       transform: translate(8px, -50%);
     }

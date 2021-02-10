@@ -5,7 +5,7 @@ import styles from './Header.module.scss';
 
 const Header = () => (
   <header className={styles.header}>
-    <h1 className="logo">
+    <h1 className={styles.logo}>
       <Link href="/">
         <a href="/">
           <Image src="/images/logo.svg" width={177} height={100} />
@@ -22,7 +22,10 @@ const Header = () => (
           <Link href="/case">case</Link>
         </li>
         <li className={styles.globalNav__item}>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
+            GitHub&nbsp;
+            <Image src="/images/blank.svg" width={15} height={15} alt="open new window" />
+          </a>
         </li>
       </ul>
     </nav>
