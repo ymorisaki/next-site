@@ -1,9 +1,11 @@
 .secondary {
-  padding: 70px;
+  padding: 100px;
   background-color: #000;
+  color: #fff;
 }
 
 .secondary__hdg {
+  margin-bottom: 100px;
   text-align: center;
   color: #fff;
   font-size: 48px;
@@ -12,6 +14,34 @@
 
 .secondary__hdgSub {
   display: block;
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: rgb(255, 219, 127);
+}
+
+// panels
+.panels {
+  width: 100%;
+  max-width: 1900px;
+  margin: auto;
+}
+
+// panel {
+.panel {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 32px;
+}
+
+.panel__body {
+  margin-bottom: 16px;
+
+  & :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.panel__lede {
   margin-bottom: 16px;
   font-size: 24px;
   color: rgb(255, 219, 127);

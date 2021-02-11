@@ -5,7 +5,6 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import styles from './HeaderMovieModal.module.scss';
-import Button from '../Atoms/Button';
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
   modal: {

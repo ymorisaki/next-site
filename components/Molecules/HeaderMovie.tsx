@@ -3,7 +3,7 @@ import styles from './HeaderMovie.module.scss';
 import HeaderMovieModal from './HeaderMovieModal';
 
 const HeaderMovie = () => {
-  const pEl = useRef(null);
+  const pElement = useRef(null);
 
   const titleAnimation = (target: HTMLElement | null) => {
     if (!target) {
@@ -38,7 +38,7 @@ const HeaderMovie = () => {
   };
 
   useEffect(() => {
-    titleAnimation(pEl.current);
+    titleAnimation(pElement.current);
   }, []);
 
   return (
@@ -46,7 +46,7 @@ const HeaderMovie = () => {
       <div className={styles.movie__content}>
         <p
           className={styles.movie__lede}
-          ref={pEl}
+          ref={pElement}
         >
           <span>S</span>
           <span>o</span>

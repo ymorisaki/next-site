@@ -24,5 +24,6 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
     'no-use-before-define': 'off',
+    'max-len': 'off',
   },
 };
