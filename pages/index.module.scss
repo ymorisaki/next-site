@@ -30,7 +30,7 @@
 .panel {
   display: flex;
   flex-direction: column-reverse;
-  margin-bottom: 32px;
+  margin-bottom: 60px;
 }
 
 .panel__body {
@@ -45,4 +45,9 @@
   margin-bottom: 16px;
   font-size: 24px;
   color: rgb(255, 219, 127);
+}
+
+// tertiary
+.tertiary {
+  padding: 100px;
 }
