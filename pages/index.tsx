@@ -44,10 +44,13 @@ const Home = () => (
                     Just below the ridiculously wide gate, there is no one but this big man. However, there is an elephant-sized cricket on an incredibly large cylinder that has been peeled off in places. As long as the fucking deca Rashomon is on Suzaku Avenue, which is as wide as a taiga, there are likely to be a huge city of women hats and explosive eboshi hats in addition to this crazy man. It is a thing. However, no one is really serious except this strange man.
                   </p>
                 </div>
+                {/* /.panel__head */}
                 <div className={styles.panel__body}>
                   <Media src="/images/index_img.jpg" width={600} height={500} alt="" />
                 </div>
+                {/* /.panel__body */}
               </div>
+              {/* /.panel */}
             </Grid>
             {/* Grind itme */}
 
