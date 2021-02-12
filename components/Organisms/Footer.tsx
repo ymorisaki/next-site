@@ -44,9 +44,6 @@ const Footer = () => (
             <Link href="/">FugaFuga</Link>
           </li>
           <li>
-            <Link href="/">Hoge</Link>
-          </li>
-          <li>
             <Link href="/">Piyo</Link>
           </li>
         </ul>
@@ -62,15 +59,6 @@ const Footer = () => (
           </li>
           <li>
             <Link href="/">FugaFugaFugaFuga</Link>
-          </li>
-          <li>
-            <Link href="/">PiyoPiyoPiyo</Link>
-          </li>
-          <li>
-            <Link href="/">FugaFuga</Link>
-          </li>
-          <li>
-            <Link href="/">Hoge</Link>
           </li>
         </ul>
       </li>
@@ -88,12 +76,6 @@ const Footer = () => (
           </li>
           <li>
             <Link href="/">FugaFuga</Link>
-          </li>
-          <li>
-            <Link href="/">Piyo</Link>
-          </li>
-          <li>
-            <Link href="/">Hoge</Link>
           </li>
         </ul>
       </li>
