@@ -1,5 +1,5 @@
 .secondary {
-  padding: 100px;
+  padding: 100px 16px;
   background-color: #000;
   color: #fff;
 }
@@ -49,7 +49,7 @@
 
 // tertiary
 .tertiary {
-  padding: 100px;
+  padding: 100px 16px;
 }
 
 .tertiary__hdg {
@@ -83,6 +83,13 @@
 }
 
 // tertiary__table
+
+.tertiary__tableScroll {
+  @media screen and (max-width:767px) {
+    width: 100%;
+    overflow-x: scroll;
+  }
+}
 
 .tertiary__table {
   width: 100%;
@@ -144,11 +151,21 @@
   display: flex;
   justify-content: center;
   margin-bottom: 32px;
+
+  @media screen and (max-width:767px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .conversion__list {
   & + & {
     margin-left: 40px;
+
+    @media screen and (max-width:767px) {
+      margin-top: 20px;
+      margin-left: 0;
+    }
   }
 
   > a {

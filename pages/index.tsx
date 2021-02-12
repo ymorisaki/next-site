@@ -24,7 +24,7 @@ const Home = () => (
           <span className={styles.secondary__hdgSub}>The first candy my grandfather gave me,</span>
           it was Werthers Original and I was 4 years old
         </h2>
-        {/* ./secondary__hdg */}
+        {/* /.secondary__hdg */}
 
         <div className={styles.panels}>
           <Grid container spacing={3}>
@@ -144,16 +144,16 @@ const Home = () => (
           </Grid>
           {/* Grind root */}
         </div>
-        {/* ./panels */}
+        {/* /.panels */}
       </div>
-      {/* ./secondary */}
+      {/* /.secondary */}
 
       <div className={styles.tertiary}>
         <h2 className={styles.tertiary__hdg}>
           <span className={styles.tertiary__hdgSub}>At first glance, the old woman jumped high in the sky, </span>
           as if she had been hit by a crossbow.
         </h2>
-        {/* ./tertiary__hdg */}
+        {/* /.tertiary__hdg */}
 
         <p className={styles.tertiary__txt}>
           As the hair fell out one by one, the fear gradually disappeared from the rotten heart of the servant. Then, at the same time,
@@ -170,62 +170,65 @@ const Home = () => (
           So much, the heart that hates all the evils of this man in the world was burning up like a large piece of the finest pine tree that was inserted into the floor of an old woman.
         </p>
 
-        <table className={styles.tertiary__table}>
-          <colgroup>
-            <col className="w-20" />
-            <col />
-            <col />
-            <col />
-          </colgroup>
-          <thead>
-            <tr>
-              <td>&nbsp;</td>
-              <th>Free</th>
-              <th>10$</th>
-              <th>50$</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>Cloud</th>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-            </tr>
-            <tr>
-              <th>Deploy</th>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-            </tr>
-            <tr>
-              <th>Secure</th>
-              <td>-</td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-            </tr>
-            <tr>
-              <th>Repository</th>
-              <td>-</td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-            </tr>
-            <tr>
-              <th>Backup</th>
-              <td>-</td>
-              <td>-</td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-            </tr>
-            <tr>
-              <th>Database</th>
-              <td>-</td>
-              <td>-</td>
-              <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
-            </tr>
-          </tbody>
-        </table>
+        <div className={styles.tertiary__tableScroll}>
+          <table className={styles.tertiary__table}>
+            <colgroup>
+              <col className="w-20" />
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr>
+                <td>&nbsp;</td>
+                <th>Free</th>
+                <th>10$</th>
+                <th>50$</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Cloud</th>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+              </tr>
+              <tr>
+                <th>Deploy</th>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+              </tr>
+              <tr>
+                <th>Secure</th>
+                <td>-</td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+              </tr>
+              <tr>
+                <th>Repository</th>
+                <td>-</td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+              </tr>
+              <tr>
+                <th>Backup</th>
+                <td>-</td>
+                <td>-</td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+              </tr>
+              <tr>
+                <th>Database</th>
+                <td>-</td>
+                <td>-</td>
+                <td><Image src="/images/check.svg" width={24} height={24} alt="supported" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        {/* /.tertiary__tableScroll */}
       </div>
-      {/* ./tertiary */}
+      {/* /.tertiary */}
 
       <div className={styles.conversion}>
         <h2 className={styles.conversion__hdg}>
@@ -240,7 +243,7 @@ const Home = () => (
             <Link href="/">Contact us</Link>
           </li>
         </ul>
-        {/* ./conversion__btns */}
+        {/* /.conversion__btns */}
         <p className={styles.conversion__txt}>
           The glowing light of the great flames from the top of the tower slightly wets the man right cheek.
           <br />
@@ -257,7 +260,7 @@ const Home = () => (
           On this heavy rainy night, even the world is burning a burning fire on this fucking big Rashomon, so it is not just a person anyway.
         </p>
       </div>
-      {/* ./conversion */}
+      {/* /.conversion */}
     </main>
 
     <Footer />

@@ -13,6 +13,10 @@
   margin: 0 auto 30px;
   display: flex;
 
+  @media screen and (max-width:767px) {
+    display: none;
+  }
+
   > li + li {
     margin-left: 20px;
   }
